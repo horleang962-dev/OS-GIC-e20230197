@@ -1,0 +1,13 @@
+/home/gic-thon-leanghor/oslab-work/lab1/task2_files
+forest.txt
+ocean.txt
+This is file forest
+This is file ocean
+forest.txt
+forest_copy.txt
+ocean.txt
+forest.txt
+forest_copy.txt
+ocean_renamed.txt
+forest.txt
+ocean_renamed.txt
