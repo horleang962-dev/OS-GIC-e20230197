@@ -1,0 +1,4 @@
+/usr/bin/mc
+drwxr-xr-x 2 macbook wheel 64 Oct 14 20:27 /tmp/etc_mc
+drwxr-xr-x 2 macbook wheel 64 Oct 14 20:27 /tmp/etc_mc
+ls: /etc/mc: No such file or directory
