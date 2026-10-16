@@ -4,7 +4,10 @@
 **Student ID:** e20230197
 
 ## Task 3 - Software Package Management (APT)
+![Task 3](images/task3.png)
 
-Below is the output and screenshot for Task 3:
+## Task 5 - Multitasking
+![Task 5](images/task5.png)
 
-![Task 3 Screenshot](images/task3.png)
+## Task 6 - Virtualization Check
+![Task 6](images/task6.png)
