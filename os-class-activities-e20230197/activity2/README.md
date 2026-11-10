@@ -86,6 +86,7 @@ Parent: done.
 
 ## Task 2: Process Creation on Windows
 
+> ⚠️ **Not completed.** I use a Mac and did not have access to a Windows computer, so I could not run `winprocess.c` or take the Task Manager screenshots.
 ### Compilation & Execution
 
 Screenshot of compiling and running `winprocess.c`:
