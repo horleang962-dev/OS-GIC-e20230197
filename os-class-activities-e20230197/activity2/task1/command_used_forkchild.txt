@@ -1,0 +1,20 @@
+        printf("Parent: done.\n");
+    }
+
+    return 0;
+}
+EOF
+
+  168  ls
+  169  clear
+  170  gcc -o forkchild forkchild.c && ls -l
+  171  ps -ef --forest | grep forkchild
+  172  pstree -p $(pgrep -o forkchild)
+  173  clear
+  174  ./forkchild > result_forkchild.txt 2>&1 &
+  175  ps -ef --forest | grep forkchild
+  176  pstree -p $(pgrep -o forkchild)
+  177  clear
+  178  wait
+  179  cat result_forkchild.txt
+  180  history | tail -n 20 > command_used_forkchild.txt

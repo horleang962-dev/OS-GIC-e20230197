@@ -1,0 +1,13 @@
+Parent process (PID: 1840683) — creating child...
+Parent: waiting for child (PID: 1840685) to finish...
+Child process (PID: 1840685, Parent PID: 1840683)
+Child: sleeping 30s — observe the process tree now!
+Child: now executing 'ls -la'...
+total 36
+drwxrwxr-x 2 gic-thon-leanghor gic-thon-leanghor  4096 Nov 10 12:25 .
+drwxrwxr-x 7 gic-thon-leanghor gic-thon-leanghor  4096 Nov 10 12:21 ..
+-rwxrwxr-x 1 gic-thon-leanghor gic-thon-leanghor 16480 Nov 10 12:22 forkchild
+-rw-rw-r-- 1 gic-thon-leanghor gic-thon-leanghor  1558 Nov 10 12:21 forkchild.c
+-rw-rw-r-- 1 gic-thon-leanghor gic-thon-leanghor   243 Nov 10 12:26 result_forkchild.txt
+Parent: child exited with status 0
+Parent: done.
