@@ -1,0 +1,20 @@
+        perror("shm_unlink");
+        exit(EXIT_FAILURE);
+    }
+    printf("Consumer: shared memory unlinked.\n");
+
+    return 0;
+}
+EOF
+
+  189  ls
+  190  clear
+  191  gcc -o shm-producer shm-producer.c -lrt
+  192  gcc -o shm-consumer shm-consumer.c -lrt
+  193  ./shm-producer
+  194  ls /dev/shm | grep leanghor
+  195  ./shm-consumer > result-shm-ipc.txt
+  196  cat result-shm-ipc.txt
+  197  ls /dev/shm | grep leanghor
+  198  ./shm-consumer
+  199  history | tail -n 20 > command_used_shm.txt
